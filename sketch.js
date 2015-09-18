@@ -32,6 +32,20 @@ fill(204,178, 150);
 	ellipse(220, 140, 95, 95);
 	ellipse(170, 140, 20, 30);
 	ellipse(270, 140, 20, 30);
+
+//draw eyes
+fill(255, 255, 255);
+ellipse(240, 140, 15, 15);
+ellipse(200, 140, 15, 15);
+fill(0, 0, 0);
+ellipse(240, 140, 10, 10);
+ellipse(200, 140, 10, 10);
+fill(154,204,198);
+ellipse(240, 140, 5, 5);
+ellipse(200, 140, 5, 5);
+//draw mouth
+fill(204,127,127);
+arc(212, 166, 30, 30, 0, PI+QUARTER_PI, PIE);
 	//draw hat
   fill(91, 51, 10);
 	rect(180, 98, 85, 20);
@@ -47,7 +61,7 @@ rect(330, 110, 3, 300);
 rect(400, 90, 3, 300);
 
 //draw balloons
-//fill(random(255), random(255), random(255));
+
 ellipse(330, 60, 70, 100);
 ellipse(360, 150, 70, 100);
 ellipse(400, 80, 70, 100);
