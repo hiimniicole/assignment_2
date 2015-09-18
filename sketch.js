@@ -54,6 +54,26 @@ arc(212, 166, 30, 30, 0, PI+QUARTER_PI, PIE);
 fill(0,0,0);
 	rect(220, 270, 40, 130, 10);
 	rect(185, 270, 40, 130, 10);
+//draw clouds
+fill(255, 255,255);
+ellipse(56,30,55,60);
+ellipse(50,60,55,60);
+ellipse(90,80,55,60);
+ellipse(50,100,55,60);
+ellipse(110,20,55,60);
+ellipse(90,30,55,60);
+//draw right side clouds
+fill(255, 255,255);
+ellipse(556,30,55,60);
+ellipse(550,60,55,60);
+ellipse(590,80,55,60);
+ellipse(550,100,55,60);
+ellipse(610,20,55,60);
+ellipse(590,30,55,60);
+
+
+
+
 //draw strings
 fill(random(255), random(255), random(255));
 rect(360, 190, 3, 300);
