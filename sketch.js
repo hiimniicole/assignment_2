@@ -14,7 +14,7 @@ fill(204,178, 150);
 	ellipse(315, 240, 20, 20);
 	ellipse(143, 265, 20, 20);
 //draw shirt
-	fill(155,25,32);
+	fill(21,111,150);
 	rect(185, 175, 70, 100, 80, 80, 5, 5);
 	push();
 	translate(190, 180);
@@ -27,18 +27,21 @@ fill(204,178, 150);
 	rect(0, 0, 20, 75, 80, 80, 5, 5);
 	pop();
 	rect(275, 230, 40, 20, 80, 5, 5, 5);
-	// draw shirt
 	// draw face
 	fill(204, 178, 150);
 	ellipse(220, 140, 95, 95);
 	ellipse(170, 140, 20, 30);
 	ellipse(270, 140, 20, 30);
+	//draw hat
+  fill(91, 51, 10);
+	rect(180, 98, 85, 20);
+	arc(220, 100, 80, 50, 80, PI+QUARTER_PI, CHORD);
 	//draw legs
 fill(0,0,0);
 	rect(220, 270, 40, 130, 10);
 	rect(185, 270, 40, 130, 10);
 //draw strings
-//fill(random(255), random(255), random(255));
+fill(random(255), random(255), random(255));
 rect(360, 190, 3, 300);
 rect(330, 110, 3, 300);
 rect(400, 90, 3, 300);
@@ -48,6 +51,7 @@ rect(400, 90, 3, 300);
 ellipse(330, 60, 70, 100);
 ellipse(360, 150, 70, 100);
 ellipse(400, 80, 70, 100);
+
 
 
 }
