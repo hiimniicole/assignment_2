@@ -2,7 +2,7 @@ function setup() {
 	// create a place to draw
 	createCanvas(640, 360);
 	noStroke();
-loop();
+	loop();
 }
 
 function draw() {
