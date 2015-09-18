@@ -39,11 +39,9 @@ fill(0,0,0);
 	rect(185, 270, 40, 130, 10);
 //draw strings
 //fill(random(255), random(255), random(255));
-//rect(230, 270, 300, 5);
-//rect(330, 250, 300, 5);
-//rect(330, 240, 300, 5);
-//rect(330, 260, 300, 5);
-
+rect(360, 190, 3, 300);
+rect(330, 110, 3, 300);
+rect(400, 90, 3, 300);
 
 //draw balloons
 //fill(random(255), random(255), random(255));
